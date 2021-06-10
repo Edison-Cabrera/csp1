@@ -21,3 +21,19 @@ body
 	height: 500px;
 	padding-top: 3rem;
 }
+
+.map-responsive
+{
+	overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe
+{
+	overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
