@@ -1,0 +1,16 @@
+*
+{
+	box-sizing: border-box;
+	font-family: "Montserrat", semi-bold;
+	color: #323641;
+}
+
+#jumbo-section
+{
+	background-color: #e6ffff;
+}
+
+#top-bar
+{
+	background-color: rgba(230, 255, 255, .3);
+}
