@@ -5,12 +5,21 @@
 	color: #323641;
 }
 
-#jumbo-section
+body
 {
 	background-color: #e6ffff;
 }
 
 #top-bar
 {
-	background-color: rgba(230, 255, 255, .3);
+	background-color: #006967;
 }
+
+#jumbo-section
+{
+	background-color: #e6ffff;
+	height: 500px;
+	padding-top: 3rem;
+}
+
+

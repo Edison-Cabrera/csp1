@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
-	<title>Edison Cabrera</title>
+	<title>Never Creatives</title>
 </head>
 <body>
 	<nav id="top-bar" class="navbar navbar-expand-lg navbar-light">
@@ -43,18 +43,17 @@
 	  </div>
 	</nav>
 
-	<!-- Jumbotron Section -->
-	<section id="jumbo-section" class="container container jumbotron mt-4 mb-5 pl-5">
-		<div class="row">
-			<h2>Welcome to Never Creatives.</h2>
-		</div>
-		<div class="row">
-			<h4>Design. Create. Never Give Up!</h4>
+	<section>
+		<div id="jumbo-section" class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">Welcome to Never Creatives</h1>
+				<p class="lead">Design. Create. Never Give Up!</p>
+			</div>
 		</div>
 	</section>
 
 	<!-- About Me Section -->
-	<section>
+	<section id="about-me-section">
 		<div class="container">
 			<h3>Never About Me</h3>
 			<p><em>"To learn something about everything and everything about something."</em></p>
@@ -70,9 +69,37 @@
 	</section>
 
 	<!-- Project Section -->
-	<section>
-		<div class="container">
+	<section id="project-section">
+		<div  class="container mt-5 mb-5">
 			<h3>Projects</h3>
+			<div class="row justify-content-around">
+				<div class="card" style="width: 18rem;">
+					<img src="./images/behance/beh-logos.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Logos</h5>
+						<p class="card-text">Logo designs projects I did.</p>
+						<a href="https://www.behance.net/nevercreatives/projects" class="btn btn-primary" target="_blank">Check this out</a>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="./images/behance/beh-photos.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Photo Editting</h5>
+						<p class="card-text">Collections of some of my edited photos</p>
+						<a href="https://www.instagram.com/nevercreatives/" class="btn btn-primary" target="_blank">Check this out</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img src="./images/behance/beh-photos.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">WIP</h5>
+						<p class="card-text">Work in Progress</p>
+						<a href="https://www.instagram.com/nevercreatives/" class="btn btn-primary" target="_blank">Check this out</a>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
@@ -80,11 +107,41 @@
 	<section>
 		<div class="container">
 			<h3>Contact</h3>
+			<div class="d-flex-fluid">
+				<form>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Full Name</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith" required="">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput2">Contact #</label>
+						<input type="number" class="form-control" id="exampleFormControlInput2" placeholder="+639151234567" required="">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput3">Email Address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com" required="">
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">Send</button>
+				</form>
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe width="300" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=eastwood%20residences%20san%20isidro,%20rodriguez,%20rizal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+						</iframe>
+							<a href="https://123movies-to.org">123movies</a><br>
+							<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+							</style>
+								<a href="https://www.embedgooglemap.net"></a>
+									<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+									</style>
+					</div>
+				</div>
+
+			</div>
 		</div>
 	</section>
 
 	<!-- Footer Section -->
-
+	
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
