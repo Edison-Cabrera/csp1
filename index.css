@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", semi-bold;
 	color: #323641;
+	max-width: 100%;
 }
 
 body
@@ -39,7 +40,7 @@ body
 {
 	left: 0;
 	top: 0;
-	height: 100%;
-	width: 100%;
+	height: 90%;
+	width: 90%;
 	position: absolute;
 }
